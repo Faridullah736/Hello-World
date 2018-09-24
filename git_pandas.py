@@ -22,6 +22,7 @@ my_data = {'first_name': ['Jason', 'Molly', 'Tina', 'Jake', 'Amy'],
 df = pd.DataFrame(my_data,
                   index=['C1','C2','C3','C4','C5'],
                   columns = ['first_name','age', 'RFM_Star', 'AvgSpend'])
+new_change = "Data-Minig lab M20180216"
 
 #Exercise uncomment the next lines and check the average of all
 #df.mean(0)
